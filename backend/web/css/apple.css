@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/tree.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.percent{
+    color: grey;
+    font-size: 8px;
+    text-align: center;
+}
+
+.flex {
+    position: fixed;
+    bottom: 60px;
+    display: flex;
+    margin-top: 150px;
+}
+
+.links {
+    text-decoration: none !important;
+}
+
+.apple-parent {
+    position: relative;
+}
+
+.apple-image {
+    max-width: 25px;
+}
+
+.options {
+    position: absolute;
+    display: none;
+    z-index: 9;
+}
+
+.apple-parent:hover .options{
+    display: block;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
